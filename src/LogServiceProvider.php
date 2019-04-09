@@ -1,6 +1,6 @@
 <?php
 
-namespace Amirhb\LaravelMongodbLog;
+namespace Ofuenzalida\LaravelMongodbLog;
 
 use Illuminate\Support\ServiceProvider;
 

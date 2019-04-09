@@ -1,6 +1,6 @@
 <?php
 
-namespace Amirhb\LaravelMongodbLog\Model;
+namespace Ofuenzalida\LaravelMongodbLog\Model;
 
 use Jenssegers\Mongodb\Eloquent\Model;
 

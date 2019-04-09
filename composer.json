@@ -2,27 +2,27 @@
     "name": "amirhb/laravel-mongodb-log",
     "description": "Mongodb Logging for Laravel",
     "keywords": ["laravel","log","mongodb","mongo","database","logging","monolog"],
-    "homepage": "https://github.com/amirhb/laravel-mongodb-log",
+    "homepage": "https://github.com/OctavioFuenzalida/laravel-mongodb-log",
     "type": "library",
     "require": {
-        "jenssegers/mongodb": "3.4.5",
+        "jenssegers/mongodb": "3.5.*",
         "illuminate/support": "^5.1"
     },
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "Amir Hossein Babaeian",
-            "email": "amirh.babaeian@gmail.com"
+            "name": "Octavio Fuenzalida Mora",
+            "email": "octavio.fuenzalida.m@gmail.com"
         }
     ],
     "minimum-stability": "dev",
     "autoload": {
-        "psr-4": {"Amirhb\\LaravelMongodbLog\\": "src/"}
+        "psr-4": {"Ofuenzalida\\LaravelMongodbLog\\": "src/"}
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Amirhb\\LaravelMongodbLog\\LogServiceProvider"
+                "Ofuenzalida\\LaravelMongodbLog\\LogServiceProvider"
             ]
         }
     }

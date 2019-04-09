@@ -1,10 +1,10 @@
 <?php
 
-namespace Amirhb\LaravelMongodbLog;
+namespace Ofuenzalida\LaravelMongodbLog;
 
 use Carbon\Carbon;
 use Monolog\Handler\AbstractProcessingHandler;
-use Amirhb\LaravelMongodbLog\Model\Log;
+use Ofuenzalida\LaravelMongodbLog\Model\Log;
 use Auth;
 
 class EloquentHandler extends AbstractProcessingHandler {
