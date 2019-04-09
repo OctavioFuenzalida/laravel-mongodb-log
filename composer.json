@@ -1,17 +1,15 @@
 {
-    "name": "amirhb/laravel-mongodb-log",
+    "name": "ofuenzalida/laravel-mongodb-log",
     "description": "Mongodb Logging for Laravel",
     "keywords": ["laravel","log","mongodb","mongo","database","logging","monolog"],
-    "homepage": "https://github.com/OctavioFuenzalida/laravel-mongodb-log",
-    "type": "library",
+    "type": "lybrary",
     "require": {
-        "jenssegers/mongodb": "3.5.*",
+        "jenssegers/mongodb": "3.5",
         "illuminate/support": "^5.1"
     },
-    "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "Octavio Fuenzalida Mora",
+            "name": "Octavio Fuenzalida",
             "email": "octavio.fuenzalida.m@gmail.com"
         }
     ],

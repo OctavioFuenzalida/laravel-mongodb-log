@@ -8,7 +8,7 @@ This package is developed as a mongodb logging-channel for Laravel 5.6 and above
 You could use Composer to install the package and all needed dependencies.
 
 ```
-composer require amirhb/laravel-mongodb-log
+composer require ofuenzalida/laravel-mongodb-log
 ```
 
 ### Configuration
@@ -31,7 +31,7 @@ And also update your config/logging.php to add your custom log-channel.
 'channels' => [
     'custom' => [
         'driver' => 'custom',
-        'via' => Amirhb\LaravelMongodbLog\LogHandler::class,
+        'via' => Ofuenzalida\LaravelMongodbLog\LogHandler::class,
     ],
 ],
 ```
@@ -40,7 +40,7 @@ There is a config file to publish which you can use to set database connection a
 First publish the config file:
 
 ```
-php artisan vendor:publish --provider="Amirhb\LaravelMongodbLog\LogServiceProvider" --tag="config"
+php artisan vendor:publish --provider="Ofuenzalida\LaravelMongodbLog\LogServiceProvider" --tag="config"
 ```
 
 Then updating the config file with your desired settings:
