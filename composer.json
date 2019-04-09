@@ -4,7 +4,7 @@
     "keywords": ["laravel","log","mongodb","mongo","database","logging","monolog"],
     "type": "lybrary",
     "require": {
-        "jenssegers/mongodb": "3.5",
+        "jenssegers/mongodb": "^3.5",
         "illuminate/support": "^5.1"
     },
     "authors": [

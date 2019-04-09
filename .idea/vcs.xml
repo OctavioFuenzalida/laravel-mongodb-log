@@ -3,6 +3,11 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/vendor/doctrine/inflector" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/illuminate/container" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/illuminate/contracts" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/illuminate/database" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/illuminate/events" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/illuminate/support" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/vendor/mongodb/mongodb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/vendor/psr/container" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/vendor/psr/simple-cache" vcs="Git" />
